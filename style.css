@@ -225,6 +225,13 @@ input[type="email"]::placeholder {
 }
 
 .footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.footerBottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -235,18 +242,18 @@ input[type="email"]::placeholder {
     padding: 20px 100px;
 }
 
-.footer-links {
+.footerBottom-links {
     list-style: none;
     padding: 0;
     display: flex;
     margin: 0;
 }
 
-.footer-links li {
+.footerBottom-links li {
     margin-left: 5px;
 }
 
-.footer-links a {
+.footerBottom a {
     text-decoration: none;
     color: rgb(148, 144, 144);
     font-weight: bold;
