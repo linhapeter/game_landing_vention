@@ -134,7 +134,7 @@ hr {
 
 .section1_image {
     min-height: 1000px;
-    background-image: url('section1.png');
+    background-image: url('images/section1_compressed.webp');
     background-size: cover;
     filter: contrast(70%);
     filter: brightness(80%);
