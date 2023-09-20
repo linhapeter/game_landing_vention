@@ -129,6 +129,16 @@ hr {
     background-color: #da8f20;
 }
 
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 .section1_image {
     min-height: 1000px;
     background-image: url('images/section1_compressed.webp');
@@ -228,6 +238,13 @@ input[type="email"]::placeholder {
 }
 
 .footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.footerBottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -238,18 +255,18 @@ input[type="email"]::placeholder {
     padding: 20px 100px;
 }
 
-.footer-links {
+.footerBottom-links {
     list-style: none;
     padding: 0;
     display: flex;
     margin: 0;
 }
 
-.footer-links li {
+.footerBottom-links li {
     margin-left: 5px;
 }
 
-.footer-links a {
+.footerBottom a {
     text-decoration: none;
     color: rgb(148, 144, 144);
     font-weight: bold;
