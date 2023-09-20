@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
-    <div class="section1_image">
-        <div class="navbar">
+    <header class="section1_image">
+        <nav aria-label="main-nav" class="navbar">
             <div class="logo">
                 <img src="images/logo_compressed.webp" alt="Logo">
             </div>
@@ -41,37 +40,44 @@
                 </div>
 
             </div>
-        </div>
+        </nav>
+        <h1 class="visually-hidden">Game Landing Page</h1>
         <div class="section1_content">
             <div>
-                <h1 class="headline">survive at all costs</h1>
-                <p class="smallerHeadline">experience new social battle royale game</p>
+                <h2 class="headline">survive at all costs</h2>
+                <h3 class="smallerHeadline">experience new social battle royale game</h3>
                 <br>
                 <button class="customButton">Buy now on Steam | $14.99</button>
             </div>
         </div>
 
 
-    </div>
-    <div class="section2_container">
 
-        <div class="section2_middle_content">
-            <img src="images/skull_compressed.webp">
-            <div class="newsletter">
-                <h2 class="smallerHeadline">want to stay in touch?</h2>
-                <h1 class="headline">newsletter subscribe</h1>
-                <p class="basicText">
-                    In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
-                </p>
-                <form class="subForm">
+    </header>
+    <main>
+        <article class="section2_container">
 
-                    <input type="email" id="email" name="email" placeholder="Enter your email address">
-                    <input class="customButton" type="button" value="Subscribe now" onclick="alert('Thank you for subscribing!')">
-                </form>
+            <div class="section2_middle_content">
+                <img src="images/skull_compressed.webp">
+                <div class="newsletter">
+                    <h3 class="smallerHeadline">want to stay in touch?</h3>
+                    <h2 class="headline">newsletter subscribe</h2>
+                    <p class="basicText">
+                        In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.
+                    </p>
+                    <form class="subForm">
+
+                        <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        <input class="customButton" type="button" value="Subscribe now" onclick="alert('Thank you for subscribing!')">
+                    </form>
+                </div>
+
+
             </div>
-
-        </div>
-        <div class="navbar" style="align-items: end; justify-content: space-evenly;">
+        </article>
+    </main>
+    <footer class="footer">
+        <nav aria-label="footer-nav" class="navbar" style="align-items: end; justify-content: space-evenly;">
             <div class="logo">
                 <img src="images/bigLogo_compressed.webp" alt="Logo">
             </div>
@@ -93,12 +99,12 @@
                 </div>
 
             </div>
-        </div>
+        </nav>
         <hr>
-        <footer class="footer">
+        <div class="footerBottom">
 
             <p>&copy; 2023 Your Website Name</p>
-            <ul class="footer-links">
+            <ul class="footerBottom-links">
                 <li><a href="#">privacy policy</a></li>
                 <li>|</li>
                 <li><a href="#">terms of services</a></li>
@@ -106,8 +112,8 @@
                 <li><a href="#">code of conduct</a></li>
 
             </ul>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
 
 </body>
