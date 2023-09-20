@@ -199,7 +199,10 @@ input[type="email"]::placeholder {
 .subForm {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+
+.subFormEmailButtonGap {
+    margin-left: 16px;
 }
 
 .bottomIcons {
