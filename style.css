@@ -5,8 +5,12 @@ body {
 }
 
 hr {
-    width: 85%;
+    width: 100%;
     border-color: rgba(211, 211, 211, 0.514);
+}
+
+.uniPadding {
+    padding: 30px 20px;
 }
 
 .basicText {
@@ -45,7 +49,6 @@ hr {
     align-items: center;
     justify-content: space-around;
     background-color: transparent;
-    padding: 30px 20px;
 }
 
 .logo img {
@@ -249,7 +252,6 @@ input[type="email"]::placeholder {
     background-color: #000000;
     color: rgba(211, 211, 211, 0.514);
     text-align: start;
-    padding: 20px 100px;
 }
 
 .footerBottom-links {
